@@ -29,12 +29,11 @@ def can_be_created_in_a_block(title = "Home Alone", release_date = "1990")
   # release_date == 1990
   
   Movie.create do |m|
-   Movie.new
+   .new
   end 
 end
 
 def can_get_the_first_item_in_the_database
-  Movie.first
 end
 
 def can_get_the_last_item_in_the_database
